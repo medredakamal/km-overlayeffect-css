@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  padding: 31px 11px 0 11px;
+  text-align: center;
+}
+
+.kamcode__wrapper h1,
+p {
+  color: #fff;
+}
+
+.kamcode__wrapper h1 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.kamcode__wrapper p {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.kamcode__overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.58), rgba(233, 30, 99, 0.64)),
+    url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+/** Med Reda Kamal Author Card */
+
+.medredakamal__author__card {
+  background-color: #152033;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 2px solid #00d3f9;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.medredakamal__author__card .card__left__side {
+  margin: 10px 0;
+}
+
+.medredakamal__author__card .card__right__side {
+  margin: 10px 0;
+}
+
+.medredakamal__author__card .card__left__side {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.medredakamal__author__card .card__left__side h1 {
+  font-size: 17px;
+  margin: 3px 0 1px 0;
+}
+
+.medredakamal__author__card .card__left__side p {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+}
+
+.medredakamal__author__card .card__left__side a {
+  display: inline-flex;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  background-color: #4899da;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  padding: 3px 7px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.medredakamal__author__card .card__left__side a:hover {
+  background-color: transparent;
+  border-color: #4899da;
+  transform: scale(0.94);
+}
+
+.medredakamal__author__card .card__left__side a > i {
+  margin-right: 5px;
+}
+
+.medredakamal__author__card .medredakamal__image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+.medredakamal__author__card .kamcode__image {
+  width: 160px;
+  height: auto;
+  object-fit: cover;
+  padding: 12px;
+}
